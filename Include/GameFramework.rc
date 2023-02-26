@@ -1,0 +1,141 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 339, 207
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,198,186,50,14
+    PUSHBUTTON      "취소",IDCANCEL,282,186,50,14
+    LTEXT           "타일 가로 수",IDC_STATIC,12,11,42,8
+    LTEXT           "타일 세로 수",IDC_STATIC,12,29,42,8
+    EDITTEXT        IDC_EDIT_TILECOUNTX,58,9,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TILECOUNTY,58,26,40,14,ES_AUTOHSCROLL
+    LTEXT           "타일 가로 크기",IDC_STATIC,110,11,49,8
+    LTEXT           "타일 세로 크기",IDC_STATIC,109,29,49,8
+    EDITTEXT        IDC_EDIT_TILESIZEX,164,9,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TILESIZEY,164,26,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "스테이지 생성",IDC_BUTTON_CREATE,262,12,64,29
+    PUSHBUTTON      "저장",IDC_BUTTON_SAVE,262,72,64,29
+    PUSHBUTTON      "불러오기",IDC_BUTTON_LOAD,262,103,64,29
+    COMBOBOX        IDC_COMBO_TILETYPE,57,83,77,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "타일 편집 모드",IDC_TILEEDITMODE,139,86,49,8
+    COMBOBOX        IDC_COMBO_TILEEDITMODE,191,83,61,68,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TILERESOURCE,57,105,77,76,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "타일 시작 위치",IDC_STATIC,14,134,49,8
+    EDITTEXT        IDC_EDIT_TILESTARTPOSX,66,131,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TILESTARTPOSY,111,131,40,14,ES_AUTOHSCROLL
+    LTEXT           "타일 타입",IDC_TILETYPE,17,87,32,8
+    LTEXT           "타일 리소스",IDC_TILERESOURCE,14,108,40,8
+    PUSHBUTTON      "타일 리소스 불러오기",IDC_BUTTON_LOADTILEIMAGE,140,101,90,22,NOT WS_TABSTOP
+    PUSHBUTTON      "배경 이미지 불러오기",IDC_BUTTON_LOADBACKTEXTURE,12,47,90,29
+    PUSHBUTTON      "스테이지 확장/축소",IDC_STAGEEXPEND,241,44,84,23
+    COMBOBOX        IDC_COMBO_TILECOLLISION,59,163,77,77,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "타일 콜리전",IDC_TILECOLLISION,15,165,40,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 332
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
